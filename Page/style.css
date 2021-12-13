@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #fafafa;
+  --buttons: #74f3cd;
+  --dark: #000;
+  --primary-font: 'Montserrat', sans-serif;
+  --buttons-hover: #63c7a9;
+}
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  padding: 1.2em;
+}
+
+h1 {
+  font-weight: 300;
+}
+h3 {
+  font-weight: 400;
+}
+
+.total-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 1.5em auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.total-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+.card-image img {
+  max-width: 100px;
+  width: 100%;
+}
+
+.card-about {
+  max-width: 400px;
+  width: 100%;
+  line-height: 1.5em;
+}
+.card-about p {
+  font-weight: 200;
+  font-size: smaller;
+}
+
+.card-price {
+  max-width: 90px;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: var(--buttons);
+  border-color: transparent;
+  height: 3em;
+}
+
+button:hover {
+  background-color: var(--buttons-hover);
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.promo input {
+  height: 2.5em;
+}
+
+.promo input:hover {
+  border: 1px solid var(--buttons-hover);
+  border-radius: 0%;
+}
+
+.total-price {
+  display: flex;
+  justify-content: end;
+  padding: 1.2em;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+
+
+

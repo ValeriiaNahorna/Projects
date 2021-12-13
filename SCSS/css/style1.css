@@ -1,0 +1,207 @@
+.landing-logo p, .footer_logo_p {
+  font-size: 15pt;
+  float: right;
+  margin: 5px 0 5px 5px; }
+
+.landing-logo span, .footer_logo_span {
+  display: table;
+  font-size: 5pt; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white; }
+
+header {
+  background-image: url(../img/m-h-day.jpg);
+  background-position-x: center;
+  background-position-y: center;
+  height: 500px;
+  background-size: cover;
+  border-bottom-right-radius: 500px 225px; }
+
+.color-button {
+  width: 50px;
+  height: 25px;
+  border-radius: 0;
+  background-color: #699900;
+  border-color: transparent;
+  border-radius: 2px 2px;
+  color: #ffffff;
+  margin-right: 0.5em;}
+
+.change-color {
+  display: flex;
+  justify-content: flex-end;}
+
+.header-wrap {
+  font: 100% "Source Sans Pro", sans-serif;
+  width: 100%;
+  max-width: 600px;
+  margin-left: 150px; }
+
+.landing-logo {
+  width: 115px;
+  padding-top: 10px; }
+
+.landing-logo img {
+  transform: rotate(90deg); }
+.landing-logo p {
+  color: #2c2f3c; }
+.landing-logo span {
+  color: #2c2f3c; }
+
+.header_heading {
+  position: relative;
+  z-index: 1;
+  max-width: 325px;
+  width: 100%;
+  font-size: 35pt;
+  font-weight: bold;
+  color: #2c2f3c;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  
+
+.header_text {
+  z-index: 5;
+  width: 450px;
+  font-size: 9pt;
+  color: #2c2f3c;
+  line-height: 15pt;
+  padding-top: 5px;
+  padding-bottom: 40px; }
+
+.header_button {
+  width: 100px;
+  height: 35px;
+  border-radius: 0;
+  background-color: #699900;
+  border-color: transparent;
+  border-radius: 2px 2px;
+  color: #ffffff; }
+
+.login:link {
+  color: #ffffff;
+  padding-left: 100px; }
+
+.section_text {
+  font: 100% "Source Sans Pro", sans-serif;
+  font-size: 20pt;
+  font-weight: bolder;
+  color: #2c2f3c;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.section_card {
+  width: 750px;
+  padding: 10px;
+  border-radius: 2px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #21232e;
+  color: #ffffff; }
+  .section_card:not(:last-of-type) {
+    margin-bottom: 25px; }
+  .section_card_img {
+    border-radius: 2px;
+    margin-right: 70px; }
+    .section_card_img:first-of-type {
+      max-height: 195px;
+      max-width: 340px; }
+    .section_card_img:nth-of-type(2) {
+      max-height: 185px;
+      max-width: 350px; }
+    .section_card_img:last-of-type {
+      height: 250px; }
+.section_link {
+  color: #ffffff;
+  padding-left: 100px;
+  font: 100% "Hind", sans-serif;
+  font-size: 9pt;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.section_card_heading {
+  font: 100% "Hind", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  width: 300px; }
+.section_card_text {
+  font: 100% "Hind", sans-serif;
+  font-size: 9pt;
+  text-align: justify;
+  color: lightgray;
+  margin-top: 20px; }
+
+.section_banner {
+  display: flex;
+  position: relative;
+  margin-left: 250px;
+  margin-top: 75px;
+  margin-bottom: -55px;
+  height: 110px;
+  width: 850px;
+  background: linear-gradient(90deg, #699900, #2f5ed0);
+  border-radius: 4px; }
+  .section_banner_heading {
+    font: 100% "Hind", sans-serif;
+    font-weight: bold;
+    color: #2c2f3c;
+    font-size: 18pt;
+    margin-left: 100px;
+    margin-top: 25px; }
+  .section_banner_text {
+    font: 100% "Hind", sans-serif;
+    color: lightgray;
+    font-size: 8pt;
+    margin-left: 100px;
+    margin-top: 10px; }
+  .section_banner_button {
+    width: 100px;
+    height: 35px;
+    border-radius: 0;
+    background-color: #699900;
+    border-color: transparent;
+    border-radius: 2px 2px;
+    color: #ffffff;
+    margin-left: 275px;
+    margin-top: 35px; }
+
+.footer {
+  height: 175px;
+  display: flex;
+  margin: auto;
+  background-color: #21232e;
+  color: lightgrey;
+  font: 100% "Hind", sans-serif; }
+
+.footer_logo {
+  position: relative;
+  top: 80px;
+  left: 50px;
+  width: 110px;
+  color: white; }
+  .footer_logo_p {
+    color: #ffffff; }
+  .footer_logo_span {
+    color: #ffffff; }
+
+.footer_text {
+  position: relative;
+  left: 550px;
+  top: 30px;
+  width: 220px;
+  font-size: 8pt; }
+
+.footer-cr {
+  position: relative;
+  left: 1100px;
+  bottom: 10px;
+  width: 200px;
+  font-size: 8pt; }

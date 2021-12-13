@@ -1,0 +1,267 @@
+@mixin button {
+    width: 100px;
+    height: 35px;
+    border-radius: 0;
+    background-color: $back-button;
+    border-color: transparent;
+    border-radius: 2px 2px;
+    color: $text-white;
+}
+
+@mixin link {
+        color: $text-white;
+        padding-left: 100px;
+}
+
+%p-logo {
+        font-size: 15pt;
+        float: right;
+        margin: 5px 0 5px 5px;
+}
+%span-logo {
+        display: table;
+        font-size: 5pt;
+}
+
+$map: (
+    grad: linear-gradient(90deg, $back-button, $gradcolor)
+);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $backgrcolor;
+}
+
+header {
+    background-image: $backgroundimg;
+    background-position-x: center;
+    background-position-y: center;
+    height: 500px;
+    background-size: cover;
+    border-bottom-right-radius: 500px 225px;
+}
+
+.header-wrap {
+    font: 100% $font-hind;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 150px;
+    }
+
+.landing-logo {
+    width: 115px;
+    padding-top: 10px;
+}
+
+    .landing-logo {
+        img {
+            transform: rotate(90deg);
+        }
+        p {
+            @extend %p-logo;
+            color: $text-color;
+        }
+        span {
+            @extend %span-logo;
+            color: $text-color;
+        }
+    }
+
+.header_heading {
+    position: relative;
+    z-index: 1;
+    max-width: 325px;
+    width: 100%;
+    font-size: 35pt;
+    font-weight: bold;
+    color: $text-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &:after {
+        z-index: -1;
+        content: '';
+        display: block;
+        height: 40px;
+        width: 200px;
+        background-color: $back-font;
+        position: absolute;
+        bottom: 40px;
+        left: 0px;
+        }
+}
+
+.header_text {
+    z-index: 5;
+    width: 450px;
+    font-size: 9pt;
+    color: $text-color;
+    line-height: 15pt;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.header_button {
+    @include button;
+}
+
+.login:link {
+    @include link;
+}
+
+.section_text {
+    font: 100% $font-hind;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: $text-color;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &:after {
+        z-index: -1;
+        position: absolute;
+        display: block;
+        content: "";
+        width: 142px;
+        height: 35px;
+        background-color: $back-font;
+        left: 680px;
+        bottom: 110px;
+    }
+}
+
+.section {
+    &_card {
+        width: 750px;
+        padding: 10px;
+        border-radius: 2px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        background-color: $back-box;
+        color: $text-white;
+        &:not(:last-of-type) {
+            margin-bottom: 25px;
+        }
+        &_img {
+            border-radius: 2px;
+            margin-right: 70px;
+
+            &:first-of-type {
+                max-height: 195px;
+                max-width: 340px;
+            }
+
+            &:nth-of-type(2) {
+                max-height: 185px;
+                max-width: 350px;
+            }
+
+            &:last-of-type {
+                height: 250px;
+            }
+        }
+    }
+    &_link {
+        @include link;
+        font: 100% $font-hind;
+        font-size: 9pt;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+.section_card {
+    &_heading {
+        font: 100% $font-hind;
+        font-weight: bolder;
+        text-align: center;
+        width: 300px;
+    }
+
+    &_text {
+        font: 100% $font-hind;
+        font-size: 9pt;
+        text-align: justify;
+        color: lightgray;
+        margin-top: 20px;
+    }
+
+}
+
+.section_banner {
+    display: flex;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 75px;
+    margin-bottom: -55px;
+    height: 110px;
+    width: 850px;
+    background: map-get($map, grad);
+    border-radius: 4px;
+    &_heading {
+        font: 100% $font-hind;
+        font-weight: bold;
+        color: $text-color;
+        font-size: 18pt;
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+    &_text {
+        font: 100% $font-hind;
+        color: lightgray;
+        font-size: 8pt;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    &_button {
+        @include button;
+        margin-left: 275px;
+        margin-top: 35px;
+    }
+}
+
+.footer {
+    height: 175px;
+    display: flex;
+    margin: auto;
+    background-color: $back-box;
+    color: lightgrey;
+    font: 100% $font-hind;
+}
+
+.footer_logo {
+    position: relative;
+    top: 80px;
+    left: 50px;
+    width: 110px;
+    color: white;
+    &_p {
+        @extend %p-logo;
+        color: $text-white;
+    }
+    &_span {
+        @extend %span-logo;
+        color: $text-white;
+    }
+}
+
+.footer_text {
+    position: relative;
+    left: 550px;
+    top: 30px;
+    width: 220px;
+    font-size: 8pt;
+}
+
+.footer-cr {
+    position: relative;
+    left: 1100px;
+    bottom: 10px;
+    width: 200px;
+    font-size: 8pt;
+}

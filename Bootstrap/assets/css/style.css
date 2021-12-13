@@ -1,0 +1,192 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.head {
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2.5em;
+}
+
+.logo-img {
+  max-width: 80px;
+  width: 100%;
+  height: 1.5em;
+}
+
+.header-text {
+  height: 26em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-text h1 {
+  font-size: 46pt;
+}
+
+.header-text p {
+  font-size: 25pt;
+  font-weight: 100;
+}
+
+.services-part-logo {
+  background-color: black;
+  filter: invert(100%);
+  margin-bottom: 0.5em;
+}
+
+.services-title p {
+  font-size: 19pt;
+  color: rgb(114, 114, 114);
+}
+
+.services-text {
+  max-width: 900px;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.column-serv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.column-serv h3 {
+  margin: 1em;
+  color: rgb(114, 114, 114);
+  font-weight: 600;
+}
+
+.column-serv p {
+  color: rgb(114, 114, 114);
+  font-weight: 300;
+}
+
+hr {
+  width: 3em;
+  height: 1px;
+  background-color: rgb(52, 29, 116);
+  margin: -0.5em auto;
+}
+
+.button {
+  background-color: transparent;
+  border: transparent;
+  background-image: url(../img/touch-bg.png);
+  background-size: cover;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  color: white;
+  max-width: 250px;
+  width: 100%;
+  height: 3.3em;
+  margin: 3.5em;
+}
+
+.works-main {
+  background-color: rgb(230, 230, 230);
+  padding: 2em;
+  font-size: 19pt;
+  color: rgb(114, 114, 114);
+}
+
+.works-part {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-works img {
+  max-width: 240px;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  margin: 0.5em auto;
+}
+
+.column-works {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.reference-container {
+  color: rgb(114, 114, 114);
+  height: 28em;
+  padding: 2em;
+}
+
+.arrows {
+  max-width: 20px;
+  width: 100%;
+}
+
+.ref-title {
+  font-size: 19pt;
+}
+
+.description-text {
+  font-weight: 200;
+  z-index: 500;
+}
+
+.references-bg {
+  background-image: url(../img/references-image-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 60%;
+}
+
+.contact-container {
+  background-color: black;
+  height: 27em;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 2px solid white !important;
+}
+
+.button-form {
+  border: none;
+  max-width: 150px;
+  width: 100%;
+  height: 3em;
+  color: white;
+  background-color: rgb(41, 41, 41);
+  font-size: 10pt;
+  margin: 2em auto;
+}
+
+.footer-container {
+  background-image: url(../img/footer-bg.jpg);
+  height: 12em;
+  font-size: 0.8rem;
+}
+
+.footer-container span {
+  font-size: 7pt;
+}
+

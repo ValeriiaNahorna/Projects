@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="task1">
+    <!-- TEMPLATE FOR TASK 1 GOES HERE -->
+    <table class="table" id="table">
+      <tr>
+        <td class="firstCell">Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <td class="firstCell">Cell</td>
+        <td>Cell</td>
+        <td class="specialCell">Special Cell</td>
+      </tr>
+      <tr>
+        <td class="firstCell">Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </table>
+  </div>
+  <div id="task2">
+    <!-- TEMPLATE FOR TASK 2 GOES HERE -->
+    <div class="message" id="message"></div>
+    <form class="form" onsubmit="return validate();">
+      <input class="name" id="name" type="text" placeholder="Type phone number in format at +380*********">
+      <button class="confirm">Send</button>
+    </form>
+  </div>
+  <div id="task3">
+    <!-- TEMPLATE FOR TASK 3 GOES HERE -->
+    <img src="../JS_DOM_Events/assets/ball.png" alt="ball" class="ball" id="ball">
+    <span class="span1" id="span1">!!!</span>
+    <span class="span2" id="span2">!!!</span>
+  </div>
+  <div class="score">
+    <p class="teamA">Team A:<span id="teamA">0</span></p>
+    <p class="teamB">Team B:<span id="teamB">0</span></p>
+  </div>
+  <div id="total" class="total"></div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

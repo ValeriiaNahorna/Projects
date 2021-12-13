@@ -1,0 +1,107 @@
+/* START: Task 1 Styles */
+.table {
+    border-collapse: collapse;
+    border: 3px solid green;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td {
+    border: 3px solid green;
+    width: 100px;
+    height: 100px;
+}
+.highlight3 {
+    background-color: rgb(0, 255, 21);
+}
+.highlight1 {
+    background-color: yellow;
+}
+.highlight2 {
+    background-color: rgb(76, 0, 255);
+}
+
+.specialCell {
+    background-color: rgb(161, 155, 155);
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+}
+.name {
+    height: 40px;
+    width: 400px;
+}
+.message {
+
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    padding-top: 1.2em;
+    font-size: 12pt;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+#task3 {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    height: 330px;
+    width: 600px;
+    background-image: url(../JS_DOM_Events/assets/court.png);
+    background-size: cover;
+}
+.ball {
+    position: absolute;
+    left: 48%;
+    top: 44%;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
+.span1 {
+    display: flex;
+    margin-top: 155px;
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    color: transparent;
+}
+.span2 {
+    display: flex;
+    margin-top: 155px;
+    margin-left: 560px;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    color: transparent;
+}
+.score {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.teamA {
+    margin-right: 80%;
+}
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* END: Task 3 Styles */
